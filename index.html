@@ -639,7 +639,7 @@
     html{scroll-behavior:auto;}
   }
 
-  /* ---------- EVOLUCIÓN (scrollytelling BIM -> simulación -> operación) ---------- */
+  /* ---------- EVOLUCIÓN (scrollytelling modelo 3D -> simulación -> operación) ---------- */
   .evolucion{
     background:var(--blueprint-deep);
     color:#EAF2F8;
@@ -1440,10 +1440,10 @@
   </div>
 
   <div class="wrap hero-inner">
-    <span class="eyebrow" data-i18n="hero_eyebrow">Simulador interactivo de proyecto · BIM / IFC</span>
+    <span class="eyebrow" data-i18n="hero_eyebrow">Simulador interactivo de proyecto · Modelos 3D</span>
     <div class="h1-cota" aria-hidden="true"><i class="ct t1"></i><i class="ln"></i><i class="ct t2"></i></div>
     <h1 data-i18n="hero_h1">Que el vecino recorra el proyecto, no que lo interprete de un plano.</h1>
-    <p class="lede" data-i18n="hero_lede">Convierte el modelo BIM de un proyecto de infraestructura en un entorno navegable: a pie, en coche o en dron. Mismo modelo, cero infografía subcontratada, decisiones más rápidas en diseño y en tramitación.</p>
+    <p class="lede" data-i18n="hero_lede">Convierte el modelo 3D de un proyecto de infraestructura en un entorno navegable: a pie, en coche o en dron. Mismo modelo, cero infografía subcontratada, decisiones más rápidas en diseño y en tramitación.</p>
 
     <div class="cta-row">
       <a href="#modulos" class="btn btn-blue" data-i18n="hero_cta1">Ver módulos →</a>
@@ -1462,10 +1462,10 @@
         <h2 class="plot-reveal"><span class="plot-inner" data-i18n="evo_h2">El mismo dato, de plano técnico a decisión operativa.</span></h2>
       </div>
 
-        <!-- FRAME 1: modelo BIM -->
+        <!-- FRAME 1: modelo 3D -->
         <div class="evo-frame active" data-stage="0">
-          <img src="evo-bim.png" alt="Modelo BIM del proyecto" style="width:100%;height:100%;object-fit:cover;display:block;">
-          <span class="evo-frame-tag mono" data-i18n="evo_tag0">IFC_MODEL.ifc — EJE 4+120</span>
+          <img src="evo-bim.png" alt="Modelo 3D del proyecto" style="width:100%;height:100%;object-fit:cover;display:block;">
+          <span class="evo-frame-tag mono" data-i18n="evo_tag0">MODELO_3D — EJE 4+120</span>
         </div>
 
         <!-- FRAME 2: entorno simulado -->
@@ -1485,7 +1485,7 @@
         <div class="evo-overlay">
           <span class="evo-count"><span class="evo-count-now" id="evoCountNow">01</span> / 03</span>
           <div class="evo-label-block">
-            <span class="evo-label active" data-label="0" data-i18n="evo_label0">MODELO BIM</span>
+            <span class="evo-label active" data-label="0" data-i18n="evo_label0">MODELO 3D</span>
             <span class="evo-label" data-label="1" data-i18n="evo_label1">ENTORNO SIMULADO</span>
             <span class="evo-label" data-label="2" data-i18n="evo_label2">MÓDULOS ADICIONALES</span>
           </div>
@@ -1577,7 +1577,7 @@
   </div>
   <div class="comp-wrap reveal">
     <div class="comp-frame" id="compFrame">
-      <div class="comp-tag left" data-i18n="comp_tagL">MODELO IFC DE PROYECTO</div>
+      <div class="comp-tag left" data-i18n="comp_tagL">MODELO 3D DE PROYECTO</div>
       <div class="comp-tag right" data-i18n="comp_tagR">ENTORNO INTERACTIVO</div>
 
       <div class="comp-layer comp-after">
@@ -1587,7 +1587,7 @@
       </div>
 
       <div class="comp-layer comp-before" id="compBefore">
-        <img src="comp-bim.png" alt="Modelo IFC de proyecto" style="width:100%;height:100%;object-fit:cover;display:block;">
+        <img src="comp-bim.png" alt="Modelo 3D de proyecto" style="width:100%;height:100%;object-fit:cover;display:block;">
       </div>
 
       <div class="comp-handle-line" id="compLine"></div>
@@ -1602,14 +1602,14 @@
     <span class="eyebrow reveal" data-i18n="mod_eyebrow">Producto modular</span>
     <div class="h2-cota" aria-hidden="true"><i class="ct"></i><i class="ln"></i><i class="ct"></i></div>
     <h2 class="plot-reveal"><span class="plot-inner" data-i18n="mod_h2">Un núcleo. Módulos que se añaden según el proyecto.</span></h2>
-    <p class="reveal" data-i18n="mod_p">Cada proyecto entra con su propio modelo IFC. Lo que se paga aparte son las capacidades que necesita ese caso concreto, no el desarrollo desde cero.</p>
+    <p class="reveal" data-i18n="mod_p">Cada proyecto entra con su propio modelo 3D. Lo que se paga aparte son las capacidades que necesita ese caso concreto, no el desarrollo desde cero.</p>
 
     <div class="diagram reveal">
       <div class="mod base">
         <div class="mod-dot"></div>
         <span class="mod-code">BASE</span>
         <h3 data-i18n="mod_base_h3">Entorno navegable</h3>
-        <p data-i18n="mod_base_p">Importación del modelo IFC, navegación peatón / coche / dron, clima y hora del día, ejecutable compilado listo para entregar.</p>
+        <p data-i18n="mod_base_p">Importación del modelo 3D del proyecto, navegación peatón / coche / dron, clima y hora del día, ejecutable compilado listo para entregar.</p>
         <span class="tag" data-i18n="mod_base_tag">incluido</span>
       </div>
       <div class="mod">
@@ -1760,15 +1760,15 @@
       </details>
       <details class="faq-item">
         <summary><span class="num">02</span><span data-i18n="faq_q1">¿Qué pasa si el diseño cambia después de la entrega?</span></summary>
-        <p data-i18n="faq_a1">El entorno se regenera a partir del modelo IFC actualizado. Las revisiones de proyecto se incorporan sin rehacer el trabajo desde cero.</p>
+        <p data-i18n="faq_a1">El entorno se regenera a partir del modelo 3D actualizado. Las revisiones de proyecto se incorporan sin rehacer el trabajo desde cero.</p>
       </details>
       <details class="faq-item">
         <summary><span class="num">03</span><span data-i18n="faq_q2">¿En cuántos equipos se puede usar el ejecutable?</span></summary>
         <p data-i18n="faq_a2">La entrega es un ejecutable compilado sin dependencias: se instala en los equipos que el proyecto necesite, sin licencias por puesto.</p>
       </details>
       <details class="faq-item">
-        <summary><span class="num">04</span><span data-i18n="faq_q3">¿Se integra con lo que ya usamos (BIM, GIS)?</span></summary>
-        <p data-i18n="faq_a3">El punto de entrada es el modelo BIM en formato IFC, estándar abierto. Cartografía y contexto territorial se incorporan como capas adicionales del entorno.</p>
+        <summary><span class="num">04</span><span data-i18n="faq_q3">¿Se integra con lo que ya usamos (GIS, cartografía)?</span></summary>
+        <p data-i18n="faq_a3">El punto de entrada es el modelo tridimensional del proyecto, en formatos estándar. Cartografía y contexto territorial se incorporan como capas adicionales del entorno.</p>
       </details>
     </div>
   </div>
@@ -1800,14 +1800,14 @@
   // ---------- Idiomas ----------
   const I18N = {
     es: {
-      btn_float:"Solicitar demo →", hero_eyebrow:"Simulador interactivo de proyecto · BIM / IFC",
+      btn_float:"Solicitar demo →", hero_eyebrow:"Simulador interactivo de proyecto · Modelos 3D",
       hero_h1:"Que el vecino recorra el proyecto, no que lo interprete de un plano.",
-      hero_lede:"Convierte el modelo BIM de un proyecto de infraestructura en un entorno navegable: a pie, en coche o en dron. Mismo modelo, cero infografía subcontratada, decisiones más rápidas en diseño y en tramitación.",
+      hero_lede:"Convierte el modelo 3D de un proyecto de infraestructura en un entorno navegable: a pie, en coche o en dron. Mismo modelo, cero infografía subcontratada, decisiones más rápidas en diseño y en tramitación.",
       hero_cta1:"Ver módulos →", hero_cta2:"Solicitar una demo",
       intro_tag:"RECÓRRELO ANTES DE CONSTRUIRLO",
       evo_eyebrow:"Mismo modelo, tres estados", evo_h2:"El mismo dato, de plano técnico a decisión operativa.",
-      evo_tag0:"IFC_MODEL.ifc — EJE 4+120", evo_tag1:"ENTORNO SIMULADO — hora 18:40, nublado", evo_tag2:"MÓDULOS ADICIONALES — tráfico simulado en tiempo real",
-      evo_label0:"MODELO BIM", evo_label1:"ENTORNO SIMULADO", evo_label2:"MÓDULOS ADICIONALES",
+      evo_tag0:"MODELO_3D — EJE 4+120", evo_tag1:"ENTORNO SIMULADO — hora 18:40, nublado", evo_tag2:"MÓDULOS ADICIONALES — tráfico simulado en tiempo real",
+      evo_label0:"MODELO 3D", evo_label1:"ENTORNO SIMULADO", evo_label2:"MÓDULOS ADICIONALES",
       trip_eyebrow:"Un entorno, tres perspectivas", trip_h2:"Recórrelo como quieras: a pie, en coche o desde el aire.",
       trip_tag0:"AVATAR · PEATÓN", trip_tag1:"AVATAR · COCHE", trip_tag2:"AVATAR · DRON",
       trip_title0:"Escala humana del proyecto", trip_title1:"Velocidad y percepción real", trip_title2:"Contexto territorial completo",
@@ -1818,10 +1818,10 @@
       prob_li2:"Información pública que genera más dudas que las que resuelve",
       prob_li3:"Falta de claridad que se traduce en reuniones interminables para que todos entiendan lo mismo que el proyecto ya dice",
       comp_eyebrow:"Arrastra para comparar", comp_h2:"Lo que hoy entrega un plano. Lo que entrega un entorno real.",
-      comp_tagL:"MODELO IFC DE PROYECTO", comp_tagR:"ENTORNO INTERACTIVO",
+      comp_tagL:"MODELO 3D DE PROYECTO", comp_tagR:"ENTORNO INTERACTIVO",
       mod_eyebrow:"Producto modular", mod_h2:"Un núcleo. Módulos que se añaden según el proyecto.",
-      mod_p:"Cada proyecto entra con su propio modelo IFC. Lo que se paga aparte son las capacidades que necesita ese caso concreto, no el desarrollo desde cero.",
-      mod_base_h3:"Entorno navegable", mod_base_p:"Importación del modelo IFC, navegación peatón / coche / dron, clima y hora del día, ejecutable compilado listo para entregar.", mod_base_tag:"incluido",
+      mod_p:"Cada proyecto entra con su propio modelo 3D. Lo que se paga aparte son las capacidades que necesita ese caso concreto, no el desarrollo desde cero.",
+      mod_base_h3:"Entorno navegable", mod_base_p:"Importación del modelo 3D del proyecto, navegación peatón / coche / dron, clima y hora del día, ejecutable compilado listo para entregar.", mod_base_tag:"incluido",
       mod1_h3:"Periféricos", mod1_p:"Control con volante o mando para sesiones de presentación más inmersivas.", mod1_tag:"opcional",
       mod2_h3:"Señalización e ITS", mod2_p:"Materiales retroreflectantes normativos y equipos ITS (CCTV, paneles) para validación de proyecto.", mod2_tag:"opcional",
       mod3_h3:"Casos de uso avanzados", mod3_p:"Fases de obra, protocolos de emergencia, tráfico simulado en tiempo real.", mod3_tag:"a medida",
@@ -1842,23 +1842,23 @@
       caso3_h3:"Revisión de alternativas", caso3_p:"Demo directa al equipo técnico del proyecto para comparar soluciones antes de decidir.",
       faq_eyebrow:"Preguntas frecuentes", faq_h2:"Lo que suelen preguntarnos antes de la demo.",
       faq_q0:"¿Sirve para presentaciones públicas e información ciudadana?", faq_a0:'Sí. El entorno se puede proyectar en sesiones informativas o instalarse en un punto de consulta, y el recorrido libre evita la sensación de "render preparado" de las infografías.',
-      faq_q1:"¿Qué pasa si el diseño cambia después de la entrega?", faq_a1:"El entorno se regenera a partir del modelo IFC actualizado. Las revisiones de proyecto se incorporan sin rehacer el trabajo desde cero.",
+      faq_q1:"¿Qué pasa si el diseño cambia después de la entrega?", faq_a1:"El entorno se regenera a partir del modelo 3D actualizado. Las revisiones de proyecto se incorporan sin rehacer el trabajo desde cero.",
       faq_q2:"¿En cuántos equipos se puede usar el ejecutable?", faq_a2:"La entrega es un ejecutable compilado sin dependencias: se instala en los equipos que el proyecto necesite, sin licencias por puesto.",
-      faq_q3:"¿Se integra con lo que ya usamos (BIM, GIS)?", faq_a3:"El punto de entrada es el modelo BIM en formato IFC, estándar abierto. Cartografía y contexto territorial se incorporan como capas adicionales del entorno.",
+      faq_q3:"¿Se integra con lo que ya usamos (GIS, cartografía)?", faq_a3:"El punto de entrada es el modelo tridimensional del proyecto, en formatos estándar. Cartografía y contexto territorial se incorporan como capas adicionales del entorno.",
       final_h2:"¿Tenéis un proyecto que se beneficiaría de esto?", final_p:"Una demo de 20 minutos suele bastar para verlo claro.",
       footer_text:"DRIVE — Simulador interactivo de proyecto",
       video_pause:"PAUSAR VIDEO", video_play:"REPRODUCIR VIDEO",
       evo_pause:"PAUSAR", evo_play:"REANUDAR"
     },
     en: {
-      btn_float:"Request demo →", hero_eyebrow:"Interactive project simulator · BIM / IFC",
+      btn_float:"Request demo →", hero_eyebrow:"Interactive project simulator · 3D models",
       hero_h1:"Let residents walk through the project, not interpret it from a drawing.",
-      hero_lede:"Turns an infrastructure project's BIM model into a navigable environment: on foot, by car or by drone. Same model, zero outsourced renders, faster design and approval decisions.",
+      hero_lede:"Turns an infrastructure project's 3D model into a navigable environment: on foot, by car or by drone. Same model, zero outsourced renders, faster design and approval decisions.",
       hero_cta1:"See modules →", hero_cta2:"Request a demo",
       intro_tag:"WALK THROUGH IT BEFORE YOU BUILD IT",
       evo_eyebrow:"Same model, three states", evo_h2:"The same data, from technical drawing to operational decision.",
-      evo_tag0:"IFC_MODEL.ifc — CHAINAGE 4+120", evo_tag1:"SIMULATED ENVIRONMENT — 18:40, overcast", evo_tag2:"ADDITIONAL MODULES — real-time simulated traffic",
-      evo_label0:"BIM MODEL", evo_label1:"SIMULATED ENVIRONMENT", evo_label2:"ADDITIONAL MODULES",
+      evo_tag0:"3D_MODEL — CHAINAGE 4+120", evo_tag1:"SIMULATED ENVIRONMENT — 18:40, overcast", evo_tag2:"ADDITIONAL MODULES — real-time simulated traffic",
+      evo_label0:"3D MODEL", evo_label1:"SIMULATED ENVIRONMENT", evo_label2:"ADDITIONAL MODULES",
       trip_eyebrow:"One environment, three perspectives", trip_h2:"Explore it your way: on foot, by car or from the air.",
       trip_tag0:"AVATAR · PEDESTRIAN", trip_tag1:"AVATAR · CAR", trip_tag2:"AVATAR · DRONE",
       trip_title0:"Human scale of the project", trip_title1:"Real speed and perception", trip_title2:"Full territorial context",
@@ -1869,10 +1869,10 @@
       prob_li2:"Public information that raises more doubts than it resolves",
       prob_li3:"Lack of clarity that turns into endless meetings just to align everyone on what the project already states",
       comp_eyebrow:"Drag to compare", comp_h2:"What a drawing delivers today. What a real environment delivers.",
-      comp_tagL:"PROJECT IFC MODEL", comp_tagR:"INTERACTIVE ENVIRONMENT",
+      comp_tagL:"PROJECT 3D MODEL", comp_tagR:"INTERACTIVE ENVIRONMENT",
       mod_eyebrow:"Modular product", mod_h2:"One core. Modules added per project.",
-      mod_p:"Each project comes in with its own IFC model. What's billed separately are the capabilities that specific case needs, not development from scratch.",
-      mod_base_h3:"Navigable environment", mod_base_p:"IFC model import, pedestrian / car / drone navigation, weather and time of day, compiled executable ready to deliver.", mod_base_tag:"included",
+      mod_p:"Each project comes in with its own 3D model. What's billed separately are the capabilities that specific case needs, not development from scratch.",
+      mod_base_h3:"Navigable environment", mod_base_p:"Project 3D model import, pedestrian / car / drone navigation, weather and time of day, compiled executable ready to deliver.", mod_base_tag:"included",
       mod1_h3:"Peripherals", mod1_p:"Steering wheel or gamepad control for more immersive presentation sessions.", mod1_tag:"optional",
       mod2_h3:"Signage & ITS", mod2_p:"Regulation-compliant retroreflective materials and ITS equipment (CCTV, panels) for project validation.", mod2_tag:"optional",
       mod3_h3:"Advanced use cases", mod3_p:"Construction phasing, emergency protocols, real-time simulated traffic.", mod3_tag:"custom",
@@ -1893,23 +1893,23 @@
       caso3_h3:"Alternatives review", caso3_p:"Direct demo to the project's technical team to compare solutions before deciding.",
       faq_eyebrow:"Frequently asked questions", faq_h2:"What people usually ask before the demo.",
       faq_q0:"Does it work for public presentations and citizen information?", faq_a0:'Yes. The environment can be projected in information sessions or installed at an information point, and free roaming avoids the "staged render" feel of traditional visuals.',
-      faq_q1:"What happens if the design changes after delivery?", faq_a1:"The environment is regenerated from the updated IFC model. Project revisions are incorporated without redoing the work from scratch.",
+      faq_q1:"What happens if the design changes after delivery?", faq_a1:"The environment is regenerated from the updated 3D model. Project revisions are incorporated without redoing the work from scratch.",
       faq_q2:"On how many machines can the executable be used?", faq_a2:"Delivery is a dependency-free compiled executable: it's installed on as many machines as the project needs, with no per-seat licensing.",
-      faq_q3:"Does it integrate with what we already use (BIM, GIS)?", faq_a3:"The entry point is the BIM model in IFC, an open standard. Mapping and territorial context are added as additional layers of the environment.",
+      faq_q3:"Does it integrate with what we already use (GIS, mapping)?", faq_a3:"The entry point is the project's three-dimensional model, in standard formats. Mapping and territorial context are added as additional layers of the environment.",
       final_h2:"Have a project that would benefit from this?", final_p:"A 20-minute demo is usually enough to see it clearly.",
       footer_text:"DRIVE — Interactive project simulator",
       video_pause:"PAUSE VIDEO", video_play:"PLAY VIDEO",
       evo_pause:"PAUSE", evo_play:"RESUME"
     },
     pt: {
-      btn_float:"Solicitar demo →", hero_eyebrow:"Simulador interativo de projeto · BIM / IFC",
+      btn_float:"Solicitar demo →", hero_eyebrow:"Simulador interativo de projeto · Modelos 3D",
       hero_h1:"Que o cidadão percorra o projeto, não que o interprete a partir de uma planta.",
-      hero_lede:"Transforma o modelo BIM de um projeto de infraestrutura num ambiente navegável: a pé, de carro ou de drone. Mesmo modelo, zero renders subcontratados, decisões mais rápidas em projeto e em licenciamento.",
+      hero_lede:"Transforma o modelo 3D de um projeto de infraestrutura num ambiente navegável: a pé, de carro ou de drone. Mesmo modelo, zero renders subcontratados, decisões mais rápidas em projeto e em licenciamento.",
       hero_cta1:"Ver módulos →", hero_cta2:"Solicitar uma demo",
       intro_tag:"PERCORRA-O ANTES DE CONSTRUÍ-LO",
       evo_eyebrow:"Mesmo modelo, três estados", evo_h2:"O mesmo dado, do desenho técnico à decisão operacional.",
-      evo_tag0:"IFC_MODEL.ifc — EIXO 4+120", evo_tag1:"AMBIENTE SIMULADO — 18h40, nublado", evo_tag2:"MÓDULOS ADICIONAIS — tráfego simulado em tempo real",
-      evo_label0:"MODELO BIM", evo_label1:"AMBIENTE SIMULADO", evo_label2:"MÓDULOS ADICIONAIS",
+      evo_tag0:"MODELO_3D — EIXO 4+120", evo_tag1:"AMBIENTE SIMULADO — 18h40, nublado", evo_tag2:"MÓDULOS ADICIONAIS — tráfego simulado em tempo real",
+      evo_label0:"MODELO 3D", evo_label1:"AMBIENTE SIMULADO", evo_label2:"MÓDULOS ADICIONAIS",
       trip_eyebrow:"Um ambiente, três perspetivas", trip_h2:"Percorra como quiser: a pé, de carro ou a partir do ar.",
       trip_tag0:"AVATAR · PEÃO", trip_tag1:"AVATAR · CARRO", trip_tag2:"AVATAR · DRONE",
       trip_title0:"Escala humana do projeto", trip_title1:"Velocidade e perceção reais", trip_title2:"Contexto territorial completo",
@@ -1920,10 +1920,10 @@
       prob_li2:"Informação pública que gera mais dúvidas do que resolve",
       prob_li3:"Falta de clareza que se traduz em reuniões intermináveis só para alinhar o que o projeto já diz",
       comp_eyebrow:"Arraste para comparar", comp_h2:"O que uma planta entrega hoje. O que um ambiente real entrega.",
-      comp_tagL:"MODELO IFC DE PROJETO", comp_tagR:"AMBIENTE INTERATIVO",
+      comp_tagL:"MODELO 3D DE PROJETO", comp_tagR:"AMBIENTE INTERATIVO",
       mod_eyebrow:"Produto modular", mod_h2:"Um núcleo. Módulos adicionados conforme o projeto.",
-      mod_p:"Cada projeto entra com o seu próprio modelo IFC. O que se paga à parte são as capacidades que esse caso concreto precisa, não o desenvolvimento do zero.",
-      mod_base_h3:"Ambiente navegável", mod_base_p:"Importação do modelo IFC, navegação peão / carro / drone, clima e hora do dia, executável compilado pronto a entregar.", mod_base_tag:"incluído",
+      mod_p:"Cada projeto entra com o seu próprio modelo 3D. O que se paga à parte são as capacidades que esse caso concreto precisa, não o desenvolvimento do zero.",
+      mod_base_h3:"Ambiente navegável", mod_base_p:"Importação do modelo 3D do projeto, navegação peão / carro / drone, clima e hora do dia, executável compilado pronto a entregar.", mod_base_tag:"incluído",
       mod1_h3:"Periféricos", mod1_p:"Controlo com volante ou comando para sessões de apresentação mais imersivas.", mod1_tag:"opcional",
       mod2_h3:"Sinalização e ITS", mod2_p:"Materiais retrorrefletores normativos e equipamentos ITS (CCTV, painéis) para validação de projeto.", mod2_tag:"opcional",
       mod3_h3:"Casos de uso avançados", mod3_p:"Fases de obra, protocolos de emergência, tráfego simulado em tempo real.", mod3_tag:"à medida",
@@ -1944,9 +1944,9 @@
       caso3_h3:"Revisão de alternativas", caso3_p:"Demo direta à equipa técnica do projeto para comparar soluções antes de decidir.",
       faq_eyebrow:"Perguntas frequentes", faq_h2:"O que costumam perguntar antes da demo.",
       faq_q0:"Serve para apresentações públicas e informação ao cidadão?", faq_a0:'Sim. O ambiente pode ser projetado em sessões informativas ou instalado num ponto de consulta, e o percurso livre evita a sensação de "render preparado" das infografias.',
-      faq_q1:"O que acontece se o projeto mudar depois da entrega?", faq_a1:"O ambiente é regenerado a partir do modelo IFC atualizado. As revisões de projeto são incorporadas sem refazer o trabalho do zero.",
+      faq_q1:"O que acontece se o projeto mudar depois da entrega?", faq_a1:"O ambiente é regenerado a partir do modelo 3D atualizado. As revisões de projeto são incorporadas sem refazer o trabalho do zero.",
       faq_q2:"Em quantos equipamentos se pode usar o executável?", faq_a2:"A entrega é um executável compilado sem dependências: instala-se nos equipamentos que o projeto precisar, sem licenças por posto.",
-      faq_q3:"Integra-se com o que já usamos (BIM, GIS)?", faq_a3:"O ponto de entrada é o modelo BIM em formato IFC, padrão aberto. Cartografia e contexto territorial são incorporados como camadas adicionais do ambiente.",
+      faq_q3:"Integra-se com o que já usamos (GIS, cartografia)?", faq_a3:"O ponto de entrada é o modelo tridimensional do projeto, em formatos padrão. Cartografia e contexto territorial são incorporados como camadas adicionais do ambiente.",
       final_h2:"Têm um projeto que beneficiaria disto?", final_p:"Uma demo de 20 minutos costuma bastar para ver com clareza.",
       footer_text:"DRIVE — Simulador interativo de projeto",
       video_pause:"PAUSAR VÍDEO", video_play:"REPRODUZIR VÍDEO",
